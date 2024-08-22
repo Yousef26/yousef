@@ -1,0 +1,59 @@
+.yyy {
+    position: relative;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+    border-left: 10px solid blue ;
+    /* animation: rtt 1s linear infinite; */
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes rtt {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+/* @keyframes rtto {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+} */
+.yyy .ttt {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+
+        /* animation: rtt 5s linear infinite; */
+}
+
+@media(max-width: 1100px) {
+
+    /* Styles for smaller screens */
+    .yyy {
+        width: 300px;
+        height: 300px;
+    }
+
+    .yyy .ttt {
+        width: 300px;
+        height: 300px;
+
+    }
+}
