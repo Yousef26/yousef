@@ -1,0 +1,112 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 0px);
+    height: calc(100vh - 146px);
+    flex-wrap: wrap;
+}
+.work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    height: 60%;
+}
+.wone {
+    width: 40%;
+    height: 100%;
+}
+.wnum {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.wmain {
+    padding-bottom: 20px;
+
+    font-size: 50px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wtext {
+    padding-bottom: 20px;
+    color: #a1a1a1;
+    line-height: 30px;
+}
+
+.wlang {
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    color: #00ff99;
+}
+.wicon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.wi1,.wi2{
+    font-size: 40px;
+width: 100px;
+height: 100px;
+justify-content: center;
+    align-items: center;
+display: flex;
+
+
+background-color: #333;
+border-radius: 50%;
+margin: 10px;
+}
+.wi1{
+    rotate: 40deg;
+}
+.wtow{
+    width: 55%;
+    height: 100%;
+}
+.wttt{
+    width: 100%;
+    height: 80%;
+}
+.wmove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wright,.wleft{
+    width: 50px;
+    height: 50px;
+    background-color: #00ff99;
+    margin: 10px 5px;
+    font-size: 30px;
+}
+@media(max-width: 1100px) {
+.work{
+    flex-direction: column;
+    width: 100%;
+}
+.wone{
+    order: 2;
+    width: 80%;
+}
+.wttt{
+    width: 100%;
+    height: 100%;
+}
+.wtow{
+    margin-bottom: 120px;
+    width: 80%;
+    order: 1;
+}
+}
+@media(max-width: 800px) {
+    .wtow{
+        width: 100%;
+    }
+    .wone{
+        width: 100%;
+    }
+}
