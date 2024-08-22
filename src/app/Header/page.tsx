@@ -34,7 +34,8 @@ const Header = () => {
                     </div>
                     <div>
                     {Links.map((link, index) => {
-                        var fff = usePathname()
+                        
+                    var fff = 8
                         return (
                             <Link className={`${link.path === fff && "here"} lili`} key={index} href={link.path}>
                                 {link.name}
@@ -63,7 +64,7 @@ const Header = () => {
                 </div>
                 <nav>
                     {Links.map((link, index) => {
-                        var fff = usePathname()
+                        var fff = 8
                         return (
                             <Link className={`${link.path === fff && "here"} lili`} key={index} href={link.path}>
                                 {link.name}
