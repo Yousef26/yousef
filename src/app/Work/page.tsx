@@ -1,9 +1,9 @@
 "use client"
 import React, { useState } from 'react'
 import "./work.css";
-import loo from '../Screenshot_30-7-2024_211549_localhost.jpeg'
-import loo1 from '../7436705_3562984.jpg'
-import loo2 from './-1-Responsive-Personal-Portfolio-Website-using-HTML-CSS-Javascript-YouTube.png'
+import loo  from './6888175_3468530.jpg'
+import loo1 from './6888175_3468530.jpg'
+import loo2 from './6888175_3468530.jpg'
 import loo3 from './6888175_3468530.jpg'
 
 
