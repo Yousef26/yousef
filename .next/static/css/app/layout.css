@@ -1,0 +1,186 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/mo.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.mo {
+    background-color: #333;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 9999999;
+
+}
+
+.full {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stairs {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 99997999;
+    display: flex;
+    /* background-color: #fff; */
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/Header/header.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.header {
+    /* background-color: #0b0bca; */
+    height: 130px;
+    /* position: relative; */
+    align-items: center;
+
+
+}
+
+.lili {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    /* background-color: aqua; #00ff99 */
+
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.last {
+    background-color: #00ff99;
+    border-radius: 20px;
+    border: 3px solid #00ff99;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 25px;
+    transition: .4s;
+}
+
+.icon {
+    /* background-color: blue; */
+    width: 50px;
+    height: 40px;
+    display: none;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.icon span {
+    background-color: #00ff99;
+    display: block;
+    width: 100%;
+    height: 5px;
+}
+.nav span {
+    display: block;
+    width: 10px;
+    background-color: #00ff99;
+    height: 10px;
+    border-radius: 50%;
+}
+.last:hover {
+    color: #00ff99;
+    background-color: transparent;
+
+}
+
+.lili:hover {
+    color: #00ff99;
+}
+
+.here {
+    color: #00ff99;
+    border-bottom: 3px solid #00ff99;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logo h1 {
+    margin: 0 15px 0 0;
+}
+.out {
+    color: #00ff99;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: aliceblue;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 0 0px 0px 10px;
+}
+
+.nav {
+    transition: .5s linear;
+    height: 100%;
+    display: flex;
+    bottom: 0;
+    width: 60%;
+    left: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: #1c1c22;
+    z-index: 55;
+}
+
+.toin {
+    
+    left: 40%;
+    top: 0;
+    position: fixed;
+    box-shadow: 3px 2px 4px 1000px rgba(0, 0, 0, 0.700);
+}
+.logo span {
+    display: block;
+    width: 15px;
+    background-color: #00ff99;
+    height: 15px;
+    border-radius: 50%;
+}
+.nav .lili {
+    width: 100px;
+    text-align: center;
+    display: block;
+}
+@media(max-width: 1100px) {
+    nav {
+        display: none;
+    }
+    .icon {
+        display: flex;
+    }
+    .header {
+        margin: 0;
+    }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/main.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+body{
+    color: white;
+    background-color: #1c1c22;
+    max-height: 100%;
+    box-sizing: border-box;
+}

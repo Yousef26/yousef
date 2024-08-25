@@ -8,9 +8,6 @@
     height: fit-content;
     padding: 20px;
 }
-body{
-    overflow-x: hidden;
-}
 .part-resume1 {
     display: flex;
     justify-content: center;

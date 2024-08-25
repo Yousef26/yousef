@@ -1,0 +1,195 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/home.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.container {
+    width: 100%;
+    height: auto;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .text {
+    width: 50%;
+    /* text-align: center; */
+}
+
+.container .text h1 {
+    font-size: 6rem;
+    color: white;
+}
+
+.container .text h1 span {
+    color: #00ff99;
+}
+
+.container .text p {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 30px;
+}
+
+.container .text .btn {
+    padding: 20px 25px;
+    background-color: #00ff99;
+    border: 2px solid #00ff99;
+    border-radius: 50px;
+    color: #333;
+    width: 30%;
+    font-size: 2rem;
+    text-align: center;
+    transition: .3s;
+}
+
+.container .text .btn:hover {
+    background-color: transparent;
+    color: #00ff99;
+}
+
+.container .text .con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .text .con .conn {
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+.container .text .con .conn .sm {
+    transition: .5s;
+    border-radius: 50%;
+
+}
+
+.container .text .con .conn .sm:hover {
+    color: rgb(37, 37, 207);
+    background-color: white;
+}
+
+.img {
+    width: 50%;
+}
+
+@media(max-width: 1100px) {
+    .container .text h1 {
+        font-size: 3rem;
+        width: 100%;
+
+        /* background-color: rgb(255, 10, 10); */
+    }
+
+    .container .text .con {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .text .con .btn{
+    width:40%;
+    }
+    .container .text .con .conn {
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    .container {
+        text-align: center;
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+
+    .container .text {
+        width: 100%;
+        order: 2;
+
+    }
+
+    .img {
+        display: flex;
+        order: 1;
+        width: 100%;
+        /* background-color: blue; */
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* .container .{
+    width: 100%;
+} */
+}
+@media(max-width: 500px) {
+    .container .text .con .btn{
+        width:80%;
+
+    }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/photo.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.yyy {
+    position: relative;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+    border-left: 10px solid blue ;
+    /* animation: rtt 1s linear infinite; */
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes rtt {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+/* @keyframes rtto {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+} */
+.yyy .ttt {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+
+        /* animation: rtt 5s linear infinite; */
+}
+
+@media(max-width: 1100px) {
+
+    /* Styles for smaller screens */
+    .yyy {
+        width: 300px;
+        height: 300px;
+    }
+
+    .yyy .ttt {
+        width: 300px;
+        height: 300px;
+
+    }
+}
