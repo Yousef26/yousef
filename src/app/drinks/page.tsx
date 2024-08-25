@@ -1,6 +1,6 @@
 import React from 'react'
 import './drinks.css'
-import  lgo  from'../7436705_3562984.jpg'
+import  lgo  from'https://i.pinimg.com/236x/ec/64/b6/ec64b6587362d9f4240129699e0f90ca.jpg'
 import Image from 'next/image'
 function drinks() {
     return (
