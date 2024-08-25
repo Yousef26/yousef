@@ -1,10 +1,10 @@
 "use client"
 import React, { useState } from 'react'
 import "./work.css";
-import loo  from 'https://i.pinimg.com/236x/eb/cb/c6/ebcbc6aaa9deca9d6efc1efc93b66945.jpg'
-import loo1 from 'https://i.pinimg.com/236x/eb/cb/c6/ebcbc6aaa9deca9d6efc1efc93b66945.jpg'
-import loo2 from 'https://i.pinimg.com/236x/eb/cb/c6/ebcbc6aaa9deca9d6efc1efc93b66945.jpg'
-import loo3 from 'https://i.pinimg.com/236x/eb/cb/c6/ebcbc6aaa9deca9d6efc1efc93b66945.jpg'
+import loo  from '/images/d1.jpg'
+import loo1 from '/images/d2.jpg'
+import loo2 from '/images/d1.jpg'
+import loo3 from '/images/dk.jpg'
 import Link from 'next/link';
 
 
