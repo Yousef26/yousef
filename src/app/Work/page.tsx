@@ -38,7 +38,7 @@ function Work() {
           </div>
           <div className="wtow">
             {/* <Image className='wttt' src={i} alt='' /> */}
-            <img src="https://d1ralsognjng37.cloudfront.net/c9999e66-7040-4890-bf72-c5ee49ff0a2a.jpeg" alt="lunch" />
+            <img className='wttt' src="https://d1ralsognjng37.cloudfront.net/c9999e66-7040-4890-bf72-c5ee49ff0a2a.jpeg" alt="lunch" />
             <div className="wmove">
               <div className="wright" onClick={() => { num <= 0 ? num = num : --num; setlang(ar[num]); setanm(name[num]); settext(loren[num])/** ;seti(img[num]) */ }}></div>
               <div className="wleft" onClick={() => { num >= 3 ? num = num : ++num; setlang(ar[num]); setanm(name[num]); settext(loren[num])/** ;seti(img[num]) */ }}></div>
