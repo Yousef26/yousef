@@ -13,7 +13,7 @@ const Home = () => {
         <div>
             <div className="container">
                 <div className="text">
-                    <h1>Hello I'm <br /><span>Yahya Kazem</span></h1>
+                    <h1>Hello I'm <br /><span>Yousef Kazem</span></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quia. Natus sit quibusdam dolore soluta quisquam id, facilis consequatur est?</p>
                     <div className="con">
                         <div className="btn">Download CV</div>
