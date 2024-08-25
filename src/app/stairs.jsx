@@ -14,13 +14,12 @@ function Stairs() {
         }
     }
     const reverseIndex = (index)=>{
-        let total = 6
+        let total = 12
         return total - index - 1
     } 
     return (
         <>
-
-            {[...Array(6)].map((_, index) => {
+            {[...Array(12)].map((_, index) => {
                 return (
                     <motion.div
                         key={index}
@@ -31,7 +30,7 @@ function Stairs() {
                         transition={{
                             duration: .3,
                             ease: 'easeInOut',
-                            delay: reverseIndex(index)*.1
+                            delay: reverseIndex(index)*.05
                         }}
                         className='full'
                     >h</motion.div>
