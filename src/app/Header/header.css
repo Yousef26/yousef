@@ -79,35 +79,37 @@
 }
 .out {
     color: #00ff99;
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: fixed;
+    top: 45px;
+    transition: 2s;
+    right: 45px;
     cursor: pointer;
     background-color: aliceblue;
-    font-size: 35px;
+    font-size: 25px;
     padding: 10px;
-    border-radius: 0 0px 0px 10px;
+    border-radius: 10px ;
 }
 
 .nav {
     transition: .5s linear;
     height: 100%;
     display: flex;
-    bottom: 0;
+    right: 0px;
+    top: 0px;
     width: 60%;
-    left: 100%;
+    transform: rotateY(90deg);
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     position: absolute;
     background-color: #1c1c22;
     z-index: 55;
+    transform-origin: right top;
+ 
 }
 
 .toin {
-    
-    left: 40%;
-    top: 0;
+    transform: rotateY(0deg);
     position: fixed;
     box-shadow: 3px 2px 4px 1000px rgba(0, 0, 0, 0.700);
 }

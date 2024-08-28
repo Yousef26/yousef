@@ -1,6 +1,7 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './drinks.css';
+import { Button } from 'react-bootstrap';
 
 function Drinks() {
     const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
@@ -17,23 +18,27 @@ function Drinks() {
 
     return (
         <div className="drinks-page">
+            
+
             <button className="home-button" onClick={() => window.location.href = '/Restaurant'}>Home</button>
             <div className="drinkindrink">
                 <div className="cold">
                     <div className="coldheader">Cold</div>
                     <div className="coldcards">
                         {Array.from({ length: 10 }).map((_, index) => (
+
                             <div
                                 key={index}
                                 className={`card ${flippedIndex === index ? 'flipped' : ''}`}
                             >
+
                                 <div className="front">
                                     <img
                                         className="drinksimg"
                                         src="https://d1ralsognjng37.cloudfront.net/c9999e66-7040-4890-bf72-c5ee49ff0a2a.jpeg"
                                         alt="drink"
                                     />
-                                    <div className="drinksprice">30$</div>
+                                    <div className="drinksprice">Coffy --Price : 30$</div>
                                     <button
                                         className="drinkdetails"
                                         onClick={() => handleFlip(index)}
@@ -48,7 +53,7 @@ function Drinks() {
                                         alt="drink"
                                     />
                                     <div className="tex">
-                                         Rem exercitationem possimus ipsa, aperiam tempore sequi suscipit.
+                                        Rem exercitationem possimus ipsa, aperiam tempore sequi suscipit.
                                     </div>
                                     <button
                                         className="gotocard"
@@ -58,6 +63,8 @@ function Drinks() {
                                     </button>
                                 </div>
                             </div>
+
+
                         ))}
                     </div>
                 </div>
@@ -76,7 +83,7 @@ function Drinks() {
                                         src="https://d1ralsognjng37.cloudfront.net/c9999e66-7040-4890-bf72-c5ee49ff0a2a.jpeg"
                                         alt="drink"
                                     />
-                                    <div className="drinksprice">30$</div>
+                                    <div className="drinksprice">Coffy --Price : 30$</div>
                                     <button
                                         className="drinkdetails"
                                         onClick={() => handleFlip(index)}
@@ -91,7 +98,7 @@ function Drinks() {
                                         alt="drink"
                                     />
                                     <div className="tex">
-                                         Rem exercitationem possimus ipsa, aperiam tempore sequi suscipit.
+                                        Rem exercitationem possimus ipsa, aperiam tempore sequi suscipit.
                                     </div>
                                     <button
                                         className="gotocard"

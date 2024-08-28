@@ -7,10 +7,10 @@ function Stairs() {
             top: "0%"
         },
         animate: {
-            top: "100%"
+            top: "200%"
         },
         exit: {
-            top: ["100%", "0%"]
+            top: ["200%", "0%"]
         }
     }
     const reverseIndex = (index)=>{
@@ -30,10 +30,10 @@ function Stairs() {
                         transition={{
                             duration: .3,
                             ease: 'easeInOut',
-                            delay: reverseIndex(index)*.05
+                            delay: reverseIndex(index)*.053
                         }}
                         className='full'
-                    >h</motion.div>
+                    ></motion.div>
                     
                 )
             })}

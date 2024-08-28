@@ -12,7 +12,7 @@
 }
 
 .full {
-    width: 100%;
+    width:calc(100% / 12);
     height: 100vh;
     background: #fff;
     position: relative;

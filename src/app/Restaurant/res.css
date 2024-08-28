@@ -40,6 +40,7 @@ margin-left: 30px;
     margin-bottom: 30px;
 }
 .meal{
+    position: relative;
     line-height: 30px;
     border-radius: 10px;
     display: flex;
@@ -64,7 +65,24 @@ margin-left: 30px;
     margin-bottom: 0px;
     font-weight: bold;
     color: #f1f1f1;
+
     font-size: 25px;
+}
+.meal button{
+    position: absolute;
+    
+    bottom: 15px;
+    right: 30px;
+    background-color: #b8864f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; 
+    box-shadow: 2px 3px 10px rgba(175, 173, 173, 0.329);
+    text-decoration: none;
 }
 .none{
     display: none;
@@ -115,3 +133,55 @@ margin-left: 30px;
         rotate: 0deg;
     }
 }
+.coninp{
+    position: fixed;
+    width: 149vh;
+    height: 100vh;
+    background-color: #000000c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 44;
+    opacity: 0;
+    display: none;
+    flex-direction: column;
+    top: -15px;
+    transition: .5s;
+    }
+    .coninp form{
+        width: fit-content;
+        height: 300px;
+        background-color: #b8864f;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coninp form input ,.coninp form select{
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        background-color: inherit;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: inset 3px 4px 5px 6px rgb(197, 230, 133);
+    }
+    .coninp  .inpback{
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background-color: #b8864f;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1000; /* Ensure it is on top of other elements */
+        box-shadow: 2px 3px 10px rgba(175, 173, 173, 0.329);
+        text-decoration: none;
+    
+    }
