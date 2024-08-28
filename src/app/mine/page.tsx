@@ -4,6 +4,7 @@ import React from 'react'
 import "../../../styles/globals.css"
 function page() {
     const [scope, animate] = useAnimate()
+}
     function ani(){
         animate('#target', { x: 200,y:200, rotate:270}, {duration:.5})
     }
