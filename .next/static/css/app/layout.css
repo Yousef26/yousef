@@ -166,6 +166,9 @@
     text-align: center;
     display: block;
 }
+.nav .lili:hover .toin{
+    border:100px solid red ;
+}
 @media(max-width: 1100px) {
     nav {
         display: none;
@@ -183,7 +186,7 @@
 body{
     color: white;
     background-color: #1c1c22;
+    overflow-x: hidden;
     max-height: 100%;
     box-sizing: border-box;
-    
 }

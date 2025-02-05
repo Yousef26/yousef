@@ -17,17 +17,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/Services/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Services/page.css",
-      "static/chunks/app/Services/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
-    ],
     "/Resume/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -39,18 +28,6 @@
       "static/chunks/main-app.js",
       "static/css/app/Work/page.css",
       "static/chunks/app/Work/page.js"
-    ],
-    "/Restaurant/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Restaurant/page.css",
-      "static/chunks/app/Restaurant/page.js"
-    ],
-    "/drinks/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/drinks/page.css",
-      "static/chunks/app/drinks/page.js"
     ]
   }
 }

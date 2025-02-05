@@ -2,6 +2,7 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/home.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************/
 .container {
+    width: 100%;
     height: auto;
     padding: 20px 50px;
     display: flex;
@@ -64,8 +65,8 @@
 }
 
 .container .text .con .conn .sm:hover {
-    color: rgb(37, 37, 207);
-    background-color: white;
+    color: #00ff99;
+    /* background-color: white; */
 }
 
 .img {
@@ -134,27 +135,36 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/photo.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************/
 .yyy {
-    position: relative;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid blue;
-    border-left: 10px solid blue ;
-    /* animation: rtt 1s linear infinite; */
-    width: 500px;
-    height: 500px;
+    border-right: 10px solid #00ff99;
+    border-left: 10px solid #00ff99 ;
+    border-radius: 50%;
+    /* position: absolute; */
+width: 500px;
+height: 500px;
+animation: rtt 3s linear infinite;
+     /* rotate:200deg; */
+    /* transform: translate(-50%, -50%); */
+    /* transform: rotate(10deg) */
 }
+.ii{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    /* background-color: rgb(46/, 77, 77); */
+    /* z-index: 99999999999999999999999999999999999999999999999999999999999; */
 
+}
 @keyframes rtt {
     0% {
-        transform: rotate(-10deg);
+        transform: rotate(0deg);
     }
 
-    50% {
-        transform: rotate(10deg);
-    }
+
 
     100% {
-        transform: rotate(-10deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -166,12 +176,13 @@
         transform: rotate(-360deg);
     }
 } */
-.yyy .ttt {
+.ttt {
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+transform: translate(-58%, -58%);
+
     width: 500px;
     height: 500px;
 
@@ -181,14 +192,19 @@
 @media(max-width: 1100px) {
 
     /* Styles for smaller screens */
-    .yyy {
+    .ii {
         width: 300px;
         height: 300px;
     }
-
-    .yyy .ttt {
+.ii .yyy{
+    width: 300px;
+    height: 300px;
+}
+    .ii .ttt {
         width: 300px;
         height: 300px;
+    transform: translate(-47%, -47%);
+
 
     }
 }

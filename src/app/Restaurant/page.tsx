@@ -81,73 +81,73 @@ function aler() {
             <div className="conmeal">
                 <h1>Our Special</h1>
                 <div className="meal breakfast">
-                    <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="breakfast" />
+                    <img src="http://localhost:3001/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabout.77515a94.jpg&w=640&q=75" alt="breakfast" />
                     <div className="lorem">
                         <h2><p>Breakfast</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div>
                 <div className="meal lunch">
                     <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="lunch" />
                     <div className="lorem">
                         <h2><p>Lunch</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div>
                 <div className="meal dinner">
                     <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="dinner" />
                     <div className="lorem">
                         <h2><p>Dinner</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div><div className="meal breakfast">
                     <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="breakfast" />
                     <div className="lorem">
                         <h2><p>Breakfast</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div>
                 <div className="meal lunch">
                     <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="lunch" />
                     <div className="lorem">
                         <h2><p>Lunch</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div>
                 <div className="meal dinner">
                     <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="dinner" />
                     <div className="lorem">
                         <h2><p>Dinner</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div><div className="meal breakfast">
                     <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="breakfast" />
                     <div className="lorem">
                         <h2><p>Breakfast</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div>
                 <div className="meal lunch">
                     <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="lunch" />
                     <div className="lorem">
                         <h2><p>Lunch</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div>
                 <div className="meal dinner">
                     <img src="https://th.bing.com/th/id/R.1e95d5b0a580872972cae45d7ad4b871?rik=KnX%2bSNgaVFPjEw&pid=ImgRaw&r=0" alt="dinner" />
                     <div className="lorem">
                         <h2><p>Dinner</p> <p>$20</p></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</p>
-                        <button onClick={showForm}>Buy</button>
+                        <p><span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel mauris iaculis malesuada.</span><button onClick={showForm}>Buy</button></p>
+                        
                     </div>
                 </div>
             </div>

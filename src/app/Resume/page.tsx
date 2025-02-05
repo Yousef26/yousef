@@ -3,6 +3,21 @@ import React, { useState } from 'react'
 import "./resume.css";
 import Head from 'next/head';
 import { motion } from "framer-motion"
+import ss from'./R.png'
+import ss2 from'./82127.png'
+import ss3 from'./R (1).png';
+
+import ss4 from'./R (2).png'
+
+import ss5 from'./tailwind-css-icon-2048x1229-u8dzt4uh.png'
+
+import ss6 from'./php_PNG43.png'
+
+import ss7 from'./R (3).png'
+
+import ss8 from'./nextjs-icon.webp'
+
+import Image from 'next/image';
 const Resume = () => {
 
   // State to track which section to show
@@ -87,14 +102,14 @@ const Resume = () => {
           <div className="smtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, quo magni. Deserunt laboriosam saepe vitae!</div>
 
           <div className="gridskills">
-            <div className="gridskill">o</div>
-            <div className="gridskill">o</div>
-            <div className="gridskill">o</div>
-            <div className="gridskill">o</div>
-            <div className="gridskill">o</div>
-            <div className="gridskill">o</div>
-            <div className="gridskill">o</div>
-            <div className="gridskill">o</div>
+            <div className="gridskill"><Image src={ss} alt='r' className='dhahnarsa'></Image></div>
+            <div className="gridskill"><Image src={ss2} alt='r'className='dhahnarsa'></Image></div>
+            <div className="gridskill"><Image src={ss3} alt='r' className='dhahnarsa'></Image></div>
+            <div className="gridskill"><Image src={ss4} alt='r' className='dhahnarsa'></Image></div>
+            <div className="gridskill"><Image src={ss5} alt='r' className='dhahnarsa'></Image></div>
+            <div className="gridskill"><Image src={ss7} alt='r' className='dhahnarsa'></Image></div>
+            <div className="gridskill"><Image src={ss8} alt='r' className='dhahnarsa'></Image></div>
+            <div className="gridskill"><Image src={ss6} alt='r' className='dhahnarsa'></Image></div>
           </div>
           {/* Add more skills */}
 

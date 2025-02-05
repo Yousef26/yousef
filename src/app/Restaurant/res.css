@@ -1,6 +1,6 @@
 .line{
     width: 100%;
-    height: 200px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,7 @@
     font-size: 20px;
 }
 .button{
+    display: flex;
     margin-top: 20px;
 
 }
@@ -38,6 +39,25 @@ margin-left: 30px;
 }
 .conmeal h1{
     margin-bottom: 30px;
+}
+.lorem p{
+    display: flex;
+    justify-content: space-between;
+}
+.lorem p button{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b8864f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    height: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px rgba(175, 173, 173, 0.329);
+    text-decoration: none;
+    margin-right: 15px;
 }
 .meal{
     position: relative;
@@ -68,9 +88,8 @@ margin-left: 30px;
 
     font-size: 25px;
 }
-.meal button{
+/* .meal button{
     position: absolute;
-    
     bottom: 15px;
     right: 30px;
     background-color: #b8864f;
@@ -80,10 +99,10 @@ margin-left: 30px;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    z-index: 1000; 
+    z-index: 43; 
     box-shadow: 2px 3px 10px rgba(175, 173, 173, 0.329);
     text-decoration: none;
-}
+} */
 .none{
     display: none;
 }
@@ -102,10 +121,36 @@ margin-left: 30px;
 
 
 }
+@media(max-width: 740px) {
+    .button{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 250px;
+    }
+    .button button:nth-child(4){
+        order: 1;
+    }
+    .button button:nth-child(3){
+        order: 3;
+    }    
+    .button button:nth-child(2){
+        order: 2;
+    }    
+    .button button:nth-child(1){
+        order: 4;
+    }
+    hr{
+        width: 25%;
+    }
+}
 @media(max-width: 600px) {
     .meal img{
         width: 100%;
     }
+}
+.lorem{
+    width: 100%;
 }
 .drinks{
     padding: 10px 20px;
@@ -135,7 +180,7 @@ margin-left: 30px;
 }
 .coninp{
     position: fixed;
-    width: 149vh;
+    width: 100%;
     height: 100vh;
     background-color: #000000c1;
     display: flex;

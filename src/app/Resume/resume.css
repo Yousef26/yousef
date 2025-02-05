@@ -14,7 +14,10 @@
     align-items: center;
     flex-direction: column;
 }
-
+.dhahnarsa{
+    width: 90%;
+    height: 90%;
+}
 .part-resume {
     display: block;
     grid-area: 1 / 2 / 2 / 4;
