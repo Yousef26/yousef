@@ -6,7 +6,7 @@
 // import './dic.css';
 // import { m } from 'framer-motion';
 
-// const Page = () => {
+const Page = () => {
 //     const [inputValue, setInputValue] = useState('');
 //     const [data, setData] = useState([]);
 
@@ -107,6 +107,6 @@
 //             </div>
 //         </div>
 //     );
-// };
+};
 
-// export default Page;
+export default Page;
